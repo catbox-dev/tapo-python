@@ -102,8 +102,12 @@ This will run the server on `0.0.0.0:9999` (you can chose any port you like).
 ```sh
 cd path/to/tapo-rest
 ```
+3. Install the openai library
+```sh
+pip3 install openai
+```
 
-3. Run the python script
+4. Run the python script
 ```sh
 python3 main.py
 ```
