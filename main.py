@@ -72,14 +72,14 @@ prompt = (f"Please assess the potential impact of each alert on the system or ne
           "indicates high impact and potential critical issues, while a green color suggests low impact or no "
           "significant disruptions. In the response you have to add the following but with your responses and all "
           "have to be inside quotes:\n\n\n"
-          f'("Alert": "{random_alerts()}",  "Color": [Choose the appropriate color], "Feedback": [Provide a short '
-          'feedback of the alert\'s impact and a short feedback of your color choice])')
+          f'("Alert": "{random_alerts()}",  "Color": "[Choose the appropriate color]", "Feedback": "[Provide a short '
+          'feedback of the alert\'s impact and what can I do to mitigate the impact]")')
 
 # Send the prompt to the OpenAI API and get the response
 openaiResponse = openai.Completion.create(
     model="text-davinci-003",
     prompt=prompt,
-    temperature=0.7,
+    temperature=0.6,
     max_tokens=100,
     top_p=1.0,
     frequency_penalty=0.5,
