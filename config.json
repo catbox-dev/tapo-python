@@ -2,7 +2,7 @@
     "account": {
         "username": "<your tapo account's email>",
         "password": "<your tapo account's password>",
-        "openAI_token": "<your openAI token>"
+        "openai_token": "<your openAI token>"
     },
     "devices": [
         {
