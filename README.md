@@ -100,7 +100,7 @@ This will run the server on `0.0.0.0:9999` (you can chose any port you like).
 1. Open the terminal application on your computer, without closing the terminal where you ran the server.
 2. Access to the GitHub directory
 ```sh
-cd path/to/tapo-rest
+cd path/to/tapo-python
 ```
 3. Install the openai library
 ```sh
