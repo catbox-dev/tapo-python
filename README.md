@@ -22,7 +22,7 @@ git clone https://github.com/catbox-dev/tapo-python.git
 
 5. Access to the GitHub directory
 ```sh
-cd path/to/tapo-rest
+cd path/to/tapo-python
 ```
 
 6. Install the tapo-rest program by [Clément Nerma](https://github.com/ClementNerma/tapo-rest)
