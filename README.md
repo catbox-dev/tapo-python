@@ -36,7 +36,7 @@ cargo install --git https://github.com/ClementNerma/tapo-rest
     "account": {
         "username": "<your tapo account's email>",
         "password": "<your tapo account's password>",
-        "openAI_token": "<your openAI token>"
+        "openai_token": "<your openAI token>"
     },
     "devices": [
         {
@@ -58,7 +58,7 @@ e.g.:
     "account": {
         "username": "example@email.com",
         "password": "example_password",
-        "openAI_token": "example_token"
+        "openai_token": "example_token"
     },
     "devices": [
         {
