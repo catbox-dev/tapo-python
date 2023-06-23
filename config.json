@@ -1,0 +1,15 @@
+{
+    "account": {
+        "username": "<your tapo account's email>",
+        "password": "<your tapo account's password>",
+        "openAI_token": "<your openAI token>"
+    },
+    "devices": [
+        {
+            "name": "<name of the device>",
+            "device_type": "<model of the device>",
+            "ip_addr": "<ip address of the device>",
+            "port": "<port of the device>"
+        }
+    ]
+}
